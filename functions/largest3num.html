@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<title>Largest Three Numbers</title>
+</head>
+<body>
+
+
+     <section class="program">
+          <div class="container">
+               <div class="box">
+                    <h1>Find the largest of three given integers using the function</h1>
+                    <p>let f=parseInt(prompt("Enter the 1st number :"));<br>
+            let s=parseInt(prompt("Enter the 2nd number :"));<br>
+            let l=parseInt(prompt("Enter the 3rd number :"));<br>
+             <br>
+                   document.write("Entered 1st number is : ",f,"  ");<br>
+                   document.write("Entered 2nd number is : ",s,"  ");<br>
+                   document.write("Entered 3rd number is : ",l,"  ");<br>
+                   document.write("  ");<br>
+
+
+             <br>
+             function bigest(a,b,c){<br>
+
+
+             if ((a>b)&&(a>c)){<br>
+
+                   document.write("Given number ",a," is Big");<br>
+
+              }<br>
+              else if ((b>a)&&(b>c)){<br>
+
+                   document.write("Given number ",b," is Big");<br>
+
+              }<br>
+              else if (a==b==c){<br>
+
+                   document.write("Given three numbers are equal");<br>
+
+              }<br>
+              else{<br>
+
+                   document.write("Given number ",c," is Big");<br>
+              }<br>
+             }<br>
+              
+             <br> 
+            <strong>Function Calling ==> </strong> bigest(f,s,l);<br></p>
+
+               </div>
+               
+          </div>
+          <h2>Script Output ==></h2><br>
+      </section>
+
+
+	<script type="text/javascript">
+		
+		   //---------- Largest Three Numbers ----------//
+                   
+             
+            let f=parseInt(prompt("Enter the 1st number :"));
+            let s=parseInt(prompt("Enter the 2nd number :"));
+            let l=parseInt(prompt("Enter the 3rd number :"));
+               
+                   document.write("Entered 1st number is : ",f,"<br>");
+                   document.write("Entered 2nd number is : ",s,"<br>");
+                   document.write("Entered 3rd number is : ",l,"<br>");
+                   document.write("<br>");
+
+
+
+             function bigest(a,b,c){
+
+
+             if ((a>b)&&(a>c)){
+
+                   document.write("Given number ",a," is Big");
+
+              }
+              else if ((b>a)&&(b>c)){
+
+                   document.write("Given number ",b," is Big");
+
+              }
+              else if (a==b==c){
+
+                   document.write("Given three numbers are equal");
+
+              }
+              else{
+
+                   document.write("Given number ",c," is Big");
+              }
+             }
+
+             bigest(f,s,l);
+
+
+
+               document.write("<br>");
+               document.write("<br>");
+               document.write("<br>");
+               document.write("<br>");
+               document.write("<br>");
+               document.write("<br>");
+	</script>
+
+</body>
+</html>
