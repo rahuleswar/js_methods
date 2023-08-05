@@ -115,7 +115,7 @@ li a:hover {
 @media (max-width:576px){
   body{
     background-position: 31rem;
-    background-image: linear-gradient(359deg, #34343496, #70660e52), url(1.jpg);
+    background-image: linear-gradient(359deg, #34343496, #70660e52), url(2.jpg);
   }
   header .list{
     visibility: hidden;
