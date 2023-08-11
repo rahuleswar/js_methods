@@ -1,1 +1,2 @@
-# Java Script Functions create and Looping statements.
+# Java Script Functions,Looping statements,array and array methods
+.
