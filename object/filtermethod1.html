@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Filter</title>
+</head>
+<body>
+
+  <section class="program">
+        <div class="container">
+          <div class="box">
+            <h1>Using Filter method 1</h1>
+            <p>const employees = [<br>
+                                   { name: 'David Carlson', age: 30 },<br>
+                                   { name: 'John Cena', age: 34 },<br>
+                                   { name: 'Mike Sheridan', age: 25 },<br>
+                                   { name: 'John Carte', age: 50 }<br>
+                               ];<br>
+
+            
+                      var result = employees.filter(function(name,index,array){<br>
+
+                        return name.age > 30<br>
+
+                      });<br>
+
+                     
+                     document.write(JSON.stringify(result));</p>
+
+          </div>
+          
+        </div>
+        <h2>Script Output ==></h2><br>
+      </section>
+
+
+
+  <script type="text/javascript">
+    
+                   
+
+               const employees = [
+                                   { name: 'David Carlson', age: 30 },
+                                   { name: 'John Cena', age: 34 },
+                                   { name: 'Mike Sheridan', age: 25 },
+                                   { name: 'John Carte', age: 50 }
+                               ];
+
+            
+                      var result = employees.filter(function(name,index,array){
+
+                        return name.age > 30
+
+                      });
+
+                     
+                     document.write(JSON.stringify(result));
+
+
+               document.write("<br>");
+               document.write("<br>");
+               document.write("<br>");
+               document.write("<br>");
+               document.write("<br>");
+               document.write("<br>");
+
+
+  </script>
+</html>
